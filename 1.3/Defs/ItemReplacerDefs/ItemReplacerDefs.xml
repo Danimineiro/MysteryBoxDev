@@ -8,6 +8,9 @@
 		
 		<producedItems>
 			<Gun_Revolver>100</Gun_Revolver>
+			
+			<!--Wanted an extreme example for weights, and this worked for me-->
+			
 			<!--<Gun_Autopistol>90</Gun_Autopistol>
 			<Gun_MachinePistol>80</Gun_MachinePistol>
 			<Gun_IncendiaryLauncher>70</Gun_IncendiaryLauncher>
