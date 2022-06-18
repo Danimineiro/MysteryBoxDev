@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef Abstract="True" Name="CODZP_Mystery_Item"> <!--Will change a lot of these values, currently for dev testings-->
+		<selectable>true</selectable>
+		<category>Item</category>
+		<tickerType>Never</tickerType>
+		<graphicData>
+			<texPath>UI/Icons/CODZP/CodZP_Mystery</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<thingClass>Thing</thingClass>
+		<recipeMaker>
+			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+			<workSkill>Crafting</workSkill>
+			<effectWorking>Smith</effectWorking>
+			<soundWorking>Recipe_Smith</soundWorking>
+			<researchPrerequisite>CodZP_Mystery-Box</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>6</Crafting>
+			</skillRequirements>
+			<recipeUsers Inherit="False">
+				<li>CodZP_Mystery-Box</li>
+			</recipeUsers>
+		</recipeMaker>
+	</ThingDef>
+
+	<ThingDef ParentName="CODZP_Mystery_Item">
+		<defName>CODZP_Mystery_Weapons</defName>
+		<label>Mystery Weapon</label>
+		<costList>
+			<Steel>1</Steel>
+		</costList>
+	</ThingDef>
+
+	<ThingDef ParentName="CODZP_Mystery_Item">
+		<defName>CODZP_Mystery_Apparel</defName>
+		<label>Mystery Apparel</label>
+		<costList>
+			<Steel>1</Steel>
+		</costList>
+	</ThingDef>
+</Defs>
