@@ -1,22 +1,58 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	<MysteryBoxFrameWork.ItemReplacerDef>
+		<defName>ItemReplacerTest0</defName>
+		
 		<targetItem>CODZP_Mystery_Weapons</targetItem>
+		<qualityGenerator>Gift</qualityGenerator>
+		
 		<producedItems>
-			<li>Gun_Revolver</li>
-			<li>Gun_Autopistol</li>
-			<li>Gun_MachinePistol</li>
-			<li>Gun_IncendiaryLauncher</li>
-			<li>Gun_SmokeLauncher</li>
-			<li>Gun_EmpLauncher</li>
-			<li>Gun_BoltActionRifle</li>
-			<li>Gun_PumpShotgun</li>
-			<li>Gun_ChainShotgun</li>
-			<li>Gun_HeavySMG</li>
-			<li>Gun_LMG</li>
-			<li>Gun_AssaultRifle</li>
-			<li>Gun_SniperRifle</li>
-			<li>Gun_Minigun</li>
+			<Gun_Revolver>100</Gun_Revolver>
+			<!--<Gun_Autopistol>90</Gun_Autopistol>
+			<Gun_MachinePistol>80</Gun_MachinePistol>
+			<Gun_IncendiaryLauncher>70</Gun_IncendiaryLauncher>
+			<Gun_SmokeLauncher>60</Gun_SmokeLauncher>
+			<Gun_EmpLauncher>50</Gun_EmpLauncher>
+			<Gun_BoltActionRifle>40</Gun_BoltActionRifle>
+			<Gun_PumpShotgun>30</Gun_PumpShotgun>
+			<Gun_ChainShotgun>20</Gun_ChainShotgun>
+			<Gun_HeavySMG>10</Gun_HeavySMG>
+			<Gun_LMG>5</Gun_LMG>
+			<Gun_AssaultRifle>4</Gun_AssaultRifle>
+			<Gun_SniperRifle>2</Gun_SniperRifle>-->
+			<Gun_Minigun>1</Gun_Minigun>
 		</producedItems>
+	</MysteryBoxFrameWork.ItemReplacerDef>
+
+	<MysteryBoxFrameWork.ItemReplacerDef>
+		<defName>ItemReplacerTest1</defName>
+
+		<targetItem>CODZP_Mystery_Apparel</targetItem>
+		<qualityGenerator>Super</qualityGenerator>
+		
+		<producedItems>
+			<Apparel_CowboyHat>100</Apparel_CowboyHat>
+			<Apparel_BowlerHat>90</Apparel_BowlerHat>
+			<Apparel_TribalHeaddress>80</Apparel_TribalHeaddress>
+			<Apparel_SimpleHelmet>70</Apparel_SimpleHelmet>
+			<Apparel_AdvancedHelmet>60</Apparel_AdvancedHelmet>
+			<Apparel_TribalA>50</Apparel_TribalA>
+			<Apparel_Pants>40</Apparel_Pants>
+			<Apparel_BasicShirt>30</Apparel_BasicShirt>
+			<Apparel_CollarShirt>20</Apparel_CollarShirt>
+			<Apparel_Jacket>10</Apparel_Jacket>
+			<Apparel_FlakVest>5</Apparel_FlakVest>
+			<Apparel_FlakPants>2</Apparel_FlakPants>
+			<Apparel_ArmorRecon>1</Apparel_ArmorRecon>
+		</producedItems>
+
+		<allowedStuffs>
+			<Silver>10</Silver>
+			<Gold>5</Gold>
+			<Steel>50</Steel>
+			<WoodLog>100</WoodLog>
+			<Cloth>2</Cloth>
+			<Synthread>1</Synthread>
+		</allowedStuffs>
 	</MysteryBoxFrameWork.ItemReplacerDef>
 </Defs>
