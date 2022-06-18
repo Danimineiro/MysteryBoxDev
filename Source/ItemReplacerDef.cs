@@ -12,6 +12,8 @@ namespace MysteryBoxFrameWork
         public readonly ThingDef targetItem;
         public readonly List<ThingDef> producedItems = new List<ThingDef>();
 
+        public ThingDef RandomItem => producedItems.RandomElement();
+
         public override IEnumerable<string> ConfigErrors()
         {
             foreach (string error in base.ConfigErrors())
