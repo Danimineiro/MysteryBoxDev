@@ -1,4 +1,7 @@
-﻿using Verse;
+﻿using System;
+using HarmonyLib;
+using RimWorld;
+using Verse;
 
 namespace MysteryBoxFrameWork
 {
